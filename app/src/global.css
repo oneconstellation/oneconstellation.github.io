@@ -1,0 +1,24 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+
+:root {
+  --oc-black: #1a1a1a;
+  --oc-pink: #D3A0A1;
+}
+
+body {
+  background-color: var(--oc-black);
+  color: var(--oc-pink);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 20px 20px 40px 20px;
+}
+
+main {
+  background-color: var(--oc-black);
+  border: 1px solid red;
+}
